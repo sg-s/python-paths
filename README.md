@@ -25,7 +25,9 @@ Things are obviously **much easier** in python, as [this highly upvoted](https:/
 
 <img width="679" alt="1" src="https://user-images.githubusercontent.com/6005346/131398199-dde19c8a-9171-483d-b0e3-4aee043ec3b4.png"> 
 <img width="690" alt="2" src="https://user-images.githubusercontent.com/6005346/131398206-9d80492b-b1af-4e1b-ba8c-abec10c5c29b.png">
-<img width="668" alt="3" src="https://user-images.githubusercontent.com/6005346/131398209-9cc87b92-f41b-4c8b-9296-87276ddbe8c6.png"> | 
+<img width="668" alt="3" src="https://user-images.githubusercontent.com/6005346/131398209-9cc87b92-f41b-4c8b-9296-87276ddbe8c6.png"> 
 
 But wait! It turns out that none of these is what you really want to do. What you should be doing is using `pip install .` on X, which involves writing a `setup.py` file, for which there are these [helpful instructions](https://godatadriven.com/blog/a-practical-guide-to-using-setup-py/)
+
+Phew! python really makes it easy to do this very basic task, so we can focus our attention to more challening tasks, like [working with arrays](https://github.com/sg-s/python-arrays/blob/main/README.md)
 
