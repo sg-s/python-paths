@@ -13,8 +13,19 @@ To be clear, the task we want to accomplish is this:
 - We are working on code Y in location YY (also on our local computer)
 - We want to use X in Y. 
 
-| MATLAB | python |
-| ---- | ---- |
-| `cd /path/to/X/` <br> `addpath(pwd)` <br> `cd /path/to/Y/` And run your code  | <img width="679" alt="1" src="https://user-images.githubusercontent.com/6005346/131398199-dde19c8a-9171-483d-b0e3-4aee043ec3b4.png"> <img width="690" alt="2" src="https://user-images.githubusercontent.com/6005346/131398206-9d80492b-b1af-4e1b-ba8c-abec10c5c29b.png"><img width="668" alt="3" src="https://user-images.githubusercontent.com/6005346/131398209-9cc87b92-f41b-4c8b-9296-87276ddbe8c6.png"> | 
+## MATLAB
+
+This is how you do it in MATLAB:
+
+```matlab
+addpath("/path/to/X/")
+% run your code
+```
+
+## python
+
+Things are obviously much easier in python, as [this highly upvoted](https://stackoverflow.com/questions/2349991/how-to-import-other-python-files) answer on StackOverflow illustrates:
+
+<img width="679" alt="1" src="https://user-images.githubusercontent.com/6005346/131398199-dde19c8a-9171-483d-b0e3-4aee043ec3b4.png"> <img width="690" alt="2" src="https://user-images.githubusercontent.com/6005346/131398206-9d80492b-b1af-4e1b-ba8c-abec10c5c29b.png"><img width="668" alt="3" src="https://user-images.githubusercontent.com/6005346/131398209-9cc87b92-f41b-4c8b-9296-87276ddbe8c6.png"> | 
 
 
