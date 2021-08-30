@@ -15,6 +15,6 @@ To be clear, the task we want to accomplish is this:
 
 | MATLAB | python |
 | ---- | ---- |
-| `cd /path/to/X/' | | 
+| `cd /path/to/X/` <br> `addpath(pwd)` <br> `cd /path/to/Y/` And run your code  | | 
 
 
