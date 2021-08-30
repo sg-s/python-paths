@@ -1,7 +1,4 @@
-# python-paths
-
-
-The sublime beauty of just running your own damn code in python.
+# The sublime beauty of just running your own damn code in python.
 
 One of the most fundamental tasks every programmer has to do at some point is to run some code they wrote from somewhere else. Typically, one writes a helper function, and you want to use it from a different program. In C++ land, this is as simple as `#include` ing your code, which simply copies and pastes your code. Crude, but easy to understand, and it works. 
 
